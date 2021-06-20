@@ -18,3 +18,6 @@ if __name__ != "__main__":
 	print("--"*50)
 	welcome()
 	print("--"*50)
+	current_time = time.localtime(time.time())
+	start_time = time.strftime("%H:%M:%S", current_time)
+	print("  "*35 ,"Started scanning at ", start_time)
