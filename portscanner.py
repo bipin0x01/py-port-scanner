@@ -8,7 +8,7 @@ import re
 
 #Arguement Parsing for CLI
 parser = argparse.ArgumentParser(description='A Simple Network port scanner.')
-parser.add_argument('host', help="Ip address of host to scan.")		Verbose mode for future updates
+parser.add_argument('host', help="Ip address of host to scan.")
 parser.add_argument("-p", dest="port_range", default="1-1024", help="Port range to scan(Default is 1-1024)")
 args = parser.parse_args()
 
