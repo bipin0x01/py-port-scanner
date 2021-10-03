@@ -1,4 +1,4 @@
-# py-port-scanner
+# Python Port Scanner by Bipin Thapa
 A basic Python based CLI Network Port Scanner.
 
 ## Usuage
